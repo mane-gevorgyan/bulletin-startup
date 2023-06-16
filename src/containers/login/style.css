@@ -1,0 +1,229 @@
+.loginPage {
+  background: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  gap: 50px;
+}
+
+.mainLogin {
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  width: 30%;
+  padding: 30px;
+}
+
+.loginTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loginTopLeft > span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.loginTopRightBorder {
+  background: rgba(119, 145, 247, 0.2);
+  border-radius: 10px;
+  width: 140px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.loginTopRightBorder > span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #7791f7;
+}
+
+.loginSeparator {
+  width: 100%;
+  height: 2px;
+  background: #ebebeb;
+  margin: 10px 0 20px 0;
+}
+
+.loginInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.loginInputs > input {
+  padding: 0 10px;
+  width: 100%;
+  height: 43px;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  background: none;
+  outline: none;
+}
+
+.loginInputs > input::placeholder {
+  color: #969696;
+}
+
+.loginForgotPassword {
+  text-align: end;
+  margin: 10px 0;
+}
+
+.loginForgotPassword > span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #7791f7;
+  cursor: pointer;
+}
+
+.loginButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 0;
+}
+
+.loginButton > button {
+  width: 244px;
+  height: 41px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.loginViaSocialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginViaSocialMedia > span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.loginSocialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.loginSocialHover {
+  cursor: pointer;
+}
+
+.loginNav {
+  max-width: 80%;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.loginNav > h1 {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.loginFooter {
+  width: 100%;
+  margin: auto;
+  padding: 25px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  bottom: 0;
+  position: absolute;
+}
+
+.loginFooter > span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #969696;
+}
+
+.loginFooterLeftPart {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.loginFooterLeftPart > a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #969696;
+}
+
+.inputEye {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  padding-right: 10px;
+}
+
+.inputEye > input {
+  padding: 0 10px;
+  width: 100%;
+  height: 43px;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.inputEye > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .mainLogin {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainLogin {
+    width: 60%;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .mainLogin {
+    width: 90%;
+  }
+}

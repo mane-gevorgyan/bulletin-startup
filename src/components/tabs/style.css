@@ -1,0 +1,39 @@
+.css-13xfq8m-MuiTabPanel-root {
+  padding: 15px 0 !important;
+}
+
+.webTabs {
+  display: flex;
+}
+
+.mobileTabs {
+  display: none;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  /* font-family: "Open Sans" !important; */
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  color: #333333 !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #7791f7 !important;
+}
+
+.css-jpln7h-MuiTabs-scroller {
+  overflow: auto !important;
+}
+
+@media screen and (max-width: 425px) {
+  .webTabs {
+    display: none;
+  }
+  .mobileTabs {
+    display: flex;
+  }
+}

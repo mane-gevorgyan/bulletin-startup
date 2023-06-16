@@ -1,0 +1,543 @@
+.navPath {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 80%;
+  max-width: 1440px;
+  margin: 5px auto 20px;
+}
+
+.navPath > ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 5px;
+}
+
+.navPath > ul > li {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.singleMainPart {
+  display: flex;
+  width: 80%;
+  max-width: 1440px;
+  margin: 20px auto 50px auto;
+  gap: 40px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.singleMainLeft {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.singleMainRight {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.singleMainRight > span {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+
+.singleAds {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.singleAds > img {
+  width: 100%;
+  height: 400px;
+}
+
+.callButton {
+  width: 100%;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.textButton {
+  width: 100%;
+  height: 41px;
+  background: rgba(119, 145, 247, 0.2);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #7791f7;
+  border: none;
+  cursor: pointer;
+}
+
+.clientInfo {
+  width: 100%;
+  background: #f5f5f5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.clientInfoTop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.clientInfoTop > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.aboutClient {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.accountType {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.accountType > span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 14px;
+}
+
+.clientRating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.aboutClient > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7791f7;
+  cursor: pointer;
+}
+
+.aboutClient > span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #969696;
+}
+
+.clientRating > p {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 11px;
+}
+
+.clientRating > span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 11px;
+  text-decoration-line: underline;
+  color: #969696;
+}
+
+.nameBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameBlock > h1 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.nameBlock > span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #969696;
+  cursor: pointer;
+}
+
+.mainImage {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slidingBox {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+}
+
+.mainImage .slidingBox > img {
+  /* width: 100%;
+  height: 100%; */
+  object-position: center;
+  flex-shrink: 0;
+}
+
+.allSliderImages {
+  display: flex;
+  gap: 5px;
+  overflow: auto;
+}
+
+.allSliderImages > div > img {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+}
+
+.imageCount {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  bottom: 10px;
+  left: 10px;
+}
+
+.imageCount > span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.nextArrow {
+  background: #ffffff;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+  /* height: fit-content; */
+}
+
+.nextArrSingle {
+  right: -20px;
+  top: 50%;
+}
+
+.previousArrow {
+  background: #ffffff;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+  /* height: fit-content; */
+}
+
+.prevArrSingle {
+  left: -20px;
+  top: 50%;
+}
+
+.imageSlider {
+  margin: 30px 0 20px 0;
+}
+
+.urgent {
+  background: #e21003;
+  border-radius: 5px;
+  /* padding: 10px; */
+  /* width: fit-content; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 83px;
+  height: 26px;
+}
+
+.urgent > span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.eachInfo {
+  display: flex;
+  gap: 20px;
+}
+
+.eachInfo > span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #969696;
+  width: 200px;
+}
+
+.showOnMap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.showOnMap > span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.showOnMap > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #7791f7;
+  cursor: pointer;
+}
+
+.eachInfo > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  width: 100%;
+}
+
+.postLicense {
+  display: flex;
+  justify-content: space-between;
+}
+.postLicense > span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.similar {
+  width: 80%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.mobileHeart {
+  display: none;
+}
+
+.mobileRightPart {
+  display: none;
+}
+
+.pageBg {
+  background: #fafafa;
+  min-height: 736px;
+}
+
+.imageSlider:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.opacity {
+  flex-shrink: 0;
+}
+
+.box {
+  max-width: 100% !important;
+  margin: 30px auto !important;
+}
+
+.box > div {
+  max-width: 100% !important;
+}
+
+.carousel-container {
+  max-width: 100% !important;
+}
+
+.carousel-item,
+.fade {
+  max-width: 100% !important;
+}
+
+.thumbnails > img {
+  height: 90px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .nameBlock > h1 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .nameBlock > span {
+    display: none;
+  }
+  .mobileHeart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background: rgba(119, 145, 247, 0.7);
+    border: 1px solid #7791f7;
+    border-radius: 50px;
+  }
+  .singleMainRight > span {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .singleMainPart {
+    width: 90%;
+    gap: 30px;
+    margin: 20px auto 0px auto;
+  }
+  .singleMainLeft {
+    width: 70%;
+  }
+  .singleMainRight {
+    width: 25%;
+  }
+  .postLicense {
+    flex-direction: column;
+  }
+  .autoServiceSlider {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .similar {
+    width: 90%;
+  }
+  .aboutClient > p {
+    font-size: 12px;
+  }
+  .aboutClient > span {
+    font-size: 10px;
+  }
+  .clientRating > p {
+    font-size: 11px;
+  }
+  .clientRating > span {
+    font-size: 11px;
+  }
+  .accountType > span {
+    font-size: 12px;
+  }
+  .clientInfoTop > img {
+    width: 40px;
+    height: 40px;
+  }
+  .navPath {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .singleMainPart {
+    flex-direction: column;
+  }
+  .singleMainLeft {
+    width: 100%;
+  }
+  .singleMainRight {
+    display: none;
+  }
+  .nextArrSingle {
+    right: -5px;
+  }
+  .prevArrSingle {
+    left: -5px;
+  }
+  .previousArrow {
+    padding: 6px;
+  }
+  .nextArrow {
+    padding: 6px;
+  }
+  .mobileRightPart {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px 0;
+  }
+  .noMobileHeart {
+    display: none;
+  }
+  .nameBlock > h1 {
+    font-size: 18px;
+  }
+  .mobPrice {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobPrice > span {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .mobBtns {
+    display: flex;
+    gap: 10px;
+  }
+  .mobClientInfoTop > img {
+    width: 50px;
+    height: 50px;
+  }
+  .mobAboutClient > p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .mobAboutClient > span {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .clientRating > p {
+    font-size: 12px;
+  }
+  .clientRating > span {
+    font-size: 13px;
+  }
+  .accountType > span {
+    font-size: 14px;
+  }
+  .eachInfo {
+    gap: 10px;
+    flex-direction: column;
+  }
+}

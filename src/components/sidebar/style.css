@@ -1,0 +1,46 @@
+.sidebar {
+  max-width: 218px;
+  width: 100%;
+  min-width: 120px;
+}
+
+.sidebar > h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.sidebarItems {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 10px;
+}
+
+.eachSidebarItem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.eachSidebarItem > img {
+  width: 20px;
+  height: 20px;
+}
+
+.eachSidebarItem > span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.pending {
+  color: #333333;
+  text-decoration: none;
+}
+
+.activey {
+  color: #7791f7;
+  text-decoration: none;
+}
